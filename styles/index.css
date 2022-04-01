@@ -107,15 +107,29 @@ h6 {
 
 body {
   font-family: var(--font-family1);
+  height: 300vh;
 }
 
 .hero-container {
   padding: 1rem;
-  background-image: url("../assets/images/bg-image-header.png") center center;
+  /* background: url("../assets/images/bg-image-header.png") center center; */
   background-color: var(--primary-color3);
 }
 
 .header-logo {
   text-transform: uppercase;
   color: var(--primary-color1);
+  font-size: .8rem;
+  margin-bottom: .5rem;
+}
+
+.navigation {
+  position: fixed;
+  top: 0.9rem;
+  right: .7rem;
+}
+
+.navigation-button {
+  border: none;
+  background: none;
 }
