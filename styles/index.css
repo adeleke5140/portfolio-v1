@@ -91,12 +91,12 @@ h6 {
     serif;
 
   /* colors */
-  --text-color1: #434343;
-  --text-color2: #424242;
-  --text-color3: #FDF5E9;
-  --text-color4: #FFF7EC;
-  --text-color5: #000000;
-  --text-color6: #FEF6EA;
+  --primary-color1: #434343;
+  --primary-color2: #424242;
+  --primary-color3: #FDF5E9;
+  --primary-color4: #FFF7EC;
+  --primary-color5: #000000;
+  --primary-color6: #FEF6EA;
   --bg-text-color: #FEF6EA14;
   --gradient-color1: #A8C5D6;
   --gradient-color2: #434343;
@@ -111,8 +111,11 @@ body {
 
 .hero-container {
   padding: 1rem;
+  background-image: url("../assets/images/bg-image-header.png") center center;
+  background-color: var(--primary-color3);
 }
 
 .header-logo {
   text-transform: uppercase;
+  color: var(--primary-color1);
 }
