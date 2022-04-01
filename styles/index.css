@@ -85,8 +85,14 @@ h6 {
   src: url("../assets/fonts/palatino/palab.ttf") format("truetype");
 }
 
+:root {
+  --font-family1: "Palatino";
+  --font-family2: 'Cormorant Garamond',
+    serif;
+}
+
 body {
-  font-family: "Palatino";
+  font-family: var(--font-family1);
 }
 
 .header-logo {
