@@ -95,6 +95,10 @@ body {
   font-family: var(--font-family1);
 }
 
+.hero-container {
+  padding: 1rem;
+}
+
 .header-logo {
   text-transform: uppercase;
 }
