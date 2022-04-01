@@ -89,6 +89,20 @@ h6 {
   --font-family1: "Palatino";
   --font-family2: 'Cormorant Garamond',
     serif;
+
+  /* colors */
+  --text-color1: #434343;
+  --text-color2: #424242;
+  --text-color3: #FDF5E9;
+  --text-color4: #FFF7EC;
+  --text-color5: #000000;
+  --text-color6: #FEF6EA;
+  --bg-text-color: #FEF6EA14;
+  --gradient-color1: #A8C5D6;
+  --gradient-color2: #434343;
+  --gradient-color3: #ffffff;
+  --circle-color1: #A8C5D6;
+  --circle-color2: #A8C5D6;
 }
 
 body {
