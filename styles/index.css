@@ -114,6 +114,7 @@ body {
   padding: 1rem;
   /* background: url("../assets/images/bg-image-header.png") center center; */
   background-color: var(--primary-color3);
+  height: 100vh;
 }
 
 .header-logo {
@@ -132,4 +133,76 @@ body {
 .navigation-button {
   border: none;
   background: none;
+}
+
+.header-main {
+  margin-top: 1.5rem;
+  font-family: var(--font-family2);
+}
+
+.header-main-title {
+  font-size: 6rem;
+  text-transform: uppercase;
+  line-height: .8;
+  color: var(--primary-color2);
+  padding-right: 0.7rem;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.header-main-title>* {
+  font-weight: 100;
+}
+
+.ellipse-gradient {
+  position: absolute;
+  top: 3rem;
+  left: -2rem;
+  filter: opacity(70%);
+
+}
+
+.title-extra1 {
+  text-align: right;
+}
+
+.title-extra2 {
+  font-family: var(--font-family1);
+  font-size: 1.7rem;
+  text-align: right;
+  margin-top: 1.2rem
+}
+
+.header-main-title-2 {
+  color: var(--primary-color2);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin-top: 2.8rem;
+}
+
+.header-main-title-2>* {
+  font-size: 5rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.ellipse {
+  position: relative;
+  left: -4rem;
+  bottom: -5rem;
+  transform: rotate(180deg);
+}
+
+/* font-size: small */
+.fs-sm {
+  font-size: 3rem;
+}
+
+.header-subtitle {
+  text-align: right;
+  position: relative;
+  bottom: 6vw;
+  font-family: var(--font-family1);
+  font-size: .8rem;
 }
