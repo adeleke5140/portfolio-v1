@@ -5,9 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kenny.dev</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
-    <h1>Hello world!</h1>
+    <div class="container">
+      <div class="container-content">
+        <div>
+          <header>
+            <p class="header-logo">Portfolio</p>
+            <hr />
+            <div class="header-main">
+              <h1 class="header-main-title">
+                FrontEnd
+                <span class="title-extra">
+                  Developer
+                </span>
+              </h1>
+              <h2 class="header-main-title-2">
+                Kehinde Adeleke
+              </h2>
+              <p>Completing your design ideas</p>
+            </div>
+          </header>
+          <nav>
+            <button aria-expanded="false" aria-controls="navigation-drawer">
+              <img src="" alt="menu" />
+            </button>
+          </nav>
+        </div>
+
+        <main>
+          <section class="about-me">
+            <span>About me</span>
+            <h3>
+              Kehinde Adeleke
+            </h3>
+            <section class="work-experience">
+              <p class="date"></p>
+              <p class="company"></p>
+            </section>
+            <section class="education">
+              <p class="duration"></p>
+              <p class="school"></p>
+            </section>
+          </section>
+
+          <section class="skills">
+            <div class="skills-type">
+              <p>Hard</p>
+              <hr />
+              <p>Soft</p>
+            </div>
+            <div class="skills-expanded">
+              <figure>
+                <figcaption>skills</figcaption>
+                <ul>
+                  <li>html, css and javascript</li>
+                  <li>GSAP</li>
+                  <li>SASS</li>
+                  <li>ReactJS</li>
+                </ul>
+              </figure>
+            </div>
+            <span>
+              <p>Cases</p>
+              <span class="arrow-down"></span>
+            </span>
+          </section>
+
+          <section class="projects">
+            <div class="projects-container">
+              <a href="#" class="project">Country fact project</a>
+              <a href="#" class="project">Borderless HQ landing page</a>
+              <a href="#" class="project">Dashboard(desktop only)</a>
+            </div>
+          </section>
+        </main>
+
+        <footer>
+          <h3>Let's making something incredible together</h3>
+          <span>Contacts</span>
+          <form action="#">
+            <label for="name">
+              <span class="label-names">
+                Name:
+              </span>
+              <input type="text" name="name" id="name" placeholder="name" />
+            </label>
+            <label for="email">
+              <span class="label-names">
+                Email:
+              </span>
+              <input type="email" name="email" id="email" placeholder="email" />
+            </label>
+            <label for="project-idea">
+              <span class="label-names">
+                Tell me about your project:
+              </span>
+              <input type="text" name="name" id="name" placeholder="name" />
+            </label>
+            <button type="submit">
+              <span class="arrow-icon">
+                <img src="" alt="send-arrow" />
+              </span>
+              Send
+            </button>
+          </form>
+
+          <div class="socials">
+            <span class="social">mail</span>
+            <span class="social">dev.to</span>
+            <span class="social">github</span>
+          </div>
+        </footer>
+      </div>
+    </div>
   </body>
 </html>
