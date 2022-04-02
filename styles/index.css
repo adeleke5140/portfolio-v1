@@ -128,6 +128,7 @@ body {
   position: fixed;
   top: 0.9rem;
   right: .7rem;
+  z-index: 5;
 }
 
 .navigation-button {
@@ -210,4 +211,95 @@ body {
   position: absolute;
   bottom: 6rem;
   left: 10rem
+}
+
+.about-me {
+  height: 100vh;
+  position: relative;
+  padding-top: 3rem;
+}
+
+.about-me::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--primary-color1);
+  filter: opacity(95%);
+}
+
+.about-me-subtitle {
+  font-family: var(--font-family2);
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-weight: 100;
+  color: var(--primary-color6);
+  filter: opacity(10%);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 13rem;
+  left: -3.8rem;
+  letter-spacing: 2px;
+}
+
+.about-me-texts {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-me-texts>* {
+  color: var(--primary-color3);
+  position: relative;
+}
+
+
+.about-me-title {
+  text-align: left;
+  padding-top: 2rem;
+  text-transform: uppercase;
+  color: var(--primary-color3);
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  line-height: 1.1;
+  font-weight: 100;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.gradient-circle {
+  position: absolute;
+  z-index: 1;
+  left: 6rem;
+
+}
+
+.about-me-blue-circle {
+  position: relative;
+  left: 8rem;
+  top: 1rem;
+}
+
+.about-me-blue-gradient {
+  position: relative;
+  bottom: 8rem;
+  left: 5rem;
+}
+
+.my-interests {
+  padding-left: 1.3rem;
+}
+
+.my-interest {
+  margin-bottom: 2rem;
+}
+
+.aria-link {
+  color: var(--primary-color5);
 }

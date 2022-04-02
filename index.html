@@ -58,18 +58,51 @@
 
         <main>
           <section class="about-me">
-            <span>About me</span>
-            <h3>
-              Kẹ́hìndé Adélékè
-            </h3>
-            <section class="work-experience">
-              <p class="date"></p>
-              <p class="company"></p>
-            </section>
-            <section class="education">
-              <p class="duration"></p>
-              <p class="school"></p>
-            </section>
+            <span class="about-me-subtitle">About me</span>
+            <div class="gradient-circle">
+              <img
+                src="./assets/images/circle1.svg"
+                alt="a blue circle"
+                class="about-me-blue-circle"
+              />
+              <img
+                src="./assets/images/ellipse-gradient.svg"
+                alt="a blue gradient"
+                class="about-me-blue-gradient"
+              />
+            </div>
+            <div class="about-me-texts">
+              <h3 class="about-me-title">
+                Kẹ́hìndé
+                <br />
+                Adélékè
+              </h3>
+              <section class="my-interests">
+                <p class="my-interest">
+                  I enjoy building acessible and delightful web experiences for
+                  users of the web.
+                </p>
+                <p class="my-interest">
+                  When I'm not looking into CSS math functions, I'm browsing
+                  through the
+                  <a
+                    href="https://www.w3.org/WAI/standards-guidelines/aria/"
+                    class="aria-link"
+                  >
+                    w3 Aria
+                  </a>
+                  website.
+                </p>
+                <p class="my-interest">
+                  Nowadays, I've also been dabbling into ReactJS ecosystem and
+                  APIs(really nifty technologies).
+                </p>
+              </section>
+              <section class="education">
+                <p class="duration"></p>
+                <p class="school"></p>
+              </section>
+            </div>
           </section>
 
           <section class="skills">
@@ -124,7 +157,12 @@
               <span class="label-names">
                 Tell me about your project:
               </span>
-              <input type="text" name="name" id="name" placeholder="name" />
+              <input
+                type="text"
+                name="project-idea"
+                id="project-idea"
+                placeholder="name"
+              />
             </label>
             <button type="submit">
               <span class="arrow-icon">
