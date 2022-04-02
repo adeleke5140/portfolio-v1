@@ -97,6 +97,7 @@ h6 {
   --primary-color4: #FFF7EC;
   --primary-color5: #000000;
   --primary-color6: #FEF6EA;
+  --primary-color7: #574843;
   --bg-text-color: #FEF6EA14;
   --gradient-color1: #A8C5D6;
   --gradient-color2: #434343;
@@ -108,6 +109,10 @@ h6 {
 body {
   font-family: var(--font-family1);
   height: 300vh;
+}
+
+.container {
+  overflow-x: hidden;
 }
 
 .hero-container {
@@ -193,10 +198,16 @@ body {
   letter-spacing: 2px;
 }
 
-
+/* utility classes */
 /* font-size: small */
 .fs-sm {
   font-size: 3rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-subtitle {
@@ -277,18 +288,16 @@ body {
   position: absolute;
   z-index: 1;
   left: 6rem;
-
 }
 
 .about-me-blue-circle {
   position: relative;
-  left: 8rem;
-  top: 1rem;
+  left: 7rem;
 }
 
 .about-me-blue-gradient {
   position: relative;
-  bottom: 8rem;
+  bottom: 10rem;
   left: 5rem;
 }
 
@@ -302,4 +311,71 @@ body {
 
 .aria-link {
   color: var(--primary-color5);
+}
+
+.skills {
+  background: var(--primary-color3);
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: var(--font-family2);
+  padding-bottom: 3rem;
+}
+
+.skills-type {
+  margin-bottom: 2rem;
+}
+
+.skills-type-text {
+  font-family: var(--font-family2);
+  text-transform: uppercase;
+  font-size: 4rem;
+  align-self: flex-start;
+}
+
+.skills-expanded {
+  text-align: right;
+}
+
+.skills-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: .4rem;
+}
+
+ul {
+  list-style: none;
+}
+
+ul>li {
+  margin-bottom: 1.1rem;
+}
+
+.to-projects {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.to-projects-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--primary-color7);
+  font-size: 1rem;
+  z-index: 2;
+}
+
+.arrow-down {
+  width: .9rem;
+}
+
+.skills-blue-gradient {
+  width: 3rem;
+  position: absolute;
+  left: 7.2em;
+  bottom: .3em;
+  z-index: 1;
 }
