@@ -248,7 +248,7 @@ body {
 .about-me-texts {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 72%;
   margin: 0 auto;
   align-items: center;
   justify-content: space-around;
