@@ -152,10 +152,11 @@ body {
   text-transform: uppercase;
   line-height: .8;
   color: var(--primary-color2);
-  padding-right: 0.7rem;
+  padding-right: calc(100% - 21rem);
   letter-spacing: 2px;
   position: relative;
   font-style: bold;
+  width: fit-content;
 }
 
 .header-main-title>* {
