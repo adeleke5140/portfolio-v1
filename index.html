@@ -48,9 +48,36 @@
                 alt="an ellipse"
                 class="ellipse"
               />
-              <div class="more">
+            </div>
+          </header>
+          <nav class="navigation">
+            <button
+              aria-expanded="false"
+              aria-controls="navigation drawer"
+              class="navigation-button"
+            >
+              <img src="./assets/images/harmburger.svg" alt="hamburger menu" />
+            </button>
+            <div class="navigation-links">
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <div class="link-others">
+                  <li><a href="#about-me">About me</a></li>
+                  <li><a href="#works">Works</a> </li>
+                  <li><a href="#contacts">Contacts</a> </li>
+                </div>
+              </ul>
+            </div>
+          </nav>
+          <div class="header-main-title-3">
+            <div class="socials socials-header">
+              <span class="social"><a href="" class="social-link">mail</a></span>
+              <span class="social"><a href="" class="social-link">dev.to</a></span>
+              <span class="social"><a href="" class="social-link">github</a></span>
+            </div>
+            <div class="more">
                 <div class="more-title">
-                  <a href="#about-me" class="more-title-text">
+                  <a tabindex="0" href="#about-me" class="more-title-text">
                     More
                   </a>
                   <img
@@ -64,32 +91,14 @@
                   alt="a blue gradient"
                   class="more-gradient"
                 />
-              </div>
             </div>
-          </header>
-          <nav class="navigation">
-            <button
-              aria-expanded="false"
-              aria-controls="navigation drawer"
-              class="navigation-button"
-            >
-              <img src="./assets/images/harmburger.svg" alt="hamburger menu" />
-            </button>
-            <div class="navigation-links">
-              <ul>
-                <li>Home</li>
-                <div class="link-others">
-                  <li>About me</li>
-                  <li>Works</li>
-                  <li>Contacts</li>
-                </div>
-              </ul>
-            </div>
-          </nav>
+          </div>
+          
+          
         </div>
 
         <main>
-          <section class="about-me">
+          <section class="about-me" id="about-me">
             <span class="about-me-subtitle">About me</span>
             <div class="gradient-circle">
               <img
@@ -153,7 +162,7 @@
                 <ul>
                   <li>HTML, CSS and JavaScript</li>
                   <li>GSAP</li>
-                  <li>SC SS</li>
+                  <li>SCSS</li>
                   <li>ReactJS</li>
                 </ul>
               </figure>
