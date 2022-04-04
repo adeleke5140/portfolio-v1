@@ -378,6 +378,13 @@ body {
     position: relative;
     z-index: 2;
     text-transform: uppercase;
+    flex-direction: row-reverse;
+  }
+
+  .more-title-text {
+    display: block;
+    text-decoration: none;
+    color: var(--primary-color1);
   }
 
   .more-title-arrow {
