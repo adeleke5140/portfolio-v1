@@ -668,10 +668,44 @@ body {
   padding-right: 2rem;
   font-family: var(--font-family2);
   padding-bottom: 3rem;
+  position: relative;
+}
+
+.skills::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url(../assets/images/bg-image.png);
+  filter: opacity(8%);
+}
+
+@media(min-width: 40em) {
+  .skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    position: relative;
+    height: 100vh;
+  }
 }
 
 .skills-type {
   margin-bottom: 2rem;
+}
+
+.skill {
+  cursor: pointer;
+}
+
+@media(min-width:40em) {
+  .skill {
+    width: 44vw;
+  }
 }
 
 .skills-type-text {
@@ -681,14 +715,32 @@ body {
   align-self: flex-start;
 }
 
+@media(min-width: 40em) {
+  .skills-type-text {
+    font-size: 10vw;
+    color: var(--primary-color1);
+  }
+}
+
 .skills-expanded {
   text-align: right;
+}
+
+@media(min-width: 40em) {
+  .skills-expanded {
+    text-align: left;
+  }
+
+  .skills-expanded ul {
+    padding-left: 0;
+  }
 }
 
 .skills-heading {
   font-weight: bold;
   font-size: 1.5rem;
   margin-bottom: .4rem;
+  color: var(--primary-color1);
 }
 
 ul {
@@ -706,6 +758,18 @@ ul>li {
   align-items: center;
   flex-direction: column;
   position: relative;
+}
+
+@media(min-width: 40em) {
+  .to-projects {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    top: 80%;
+  }
 }
 
 .to-projects-title {
@@ -726,4 +790,34 @@ ul>li {
   left: 7.2em;
   bottom: .3em;
   z-index: 1;
+}
+
+
+@media (min-width: 40em) {
+  .skills-blue-gradient {
+    left: 0;
+  }
+}
+
+
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  justify-content: space-between;
+  text-align: center;
+  font-family: var(--font-family2);
+}
+
+.project {
+  background: var(--primary-color3);
+  padding: 4rem 3rem;
+  text-decoration: none;
+  color: var(--primary-color5);
+}
+
+.project>span {
+  display: block;
+  font-size: .9rem;
 }
