@@ -485,10 +485,17 @@ body {
 
 
 .about-me {
-  height: 100vh;
+  height: 66vh;
   position: relative;
   padding-top: 3rem;
   background-image: url(../assets/images/bg-image.png);
+}
+
+@media(min-width: 40em) {
+  .about-me {
+    padding-left: 10rem;
+    height: 100vh;
+  }
 }
 
 .about-me::before {
@@ -517,6 +524,19 @@ body {
   letter-spacing: 2px;
 }
 
+@media(min-width: 40em) {
+  .about-me-subtitle {
+    position: static;
+    transform: rotate(0deg);
+    writing-mode: revert;
+    text-align: left;
+    display: block;
+    font-size: 10vw;
+    color: var(--primary-color4);
+    filter: opacity(100%);
+  }
+}
+
 .about-me-texts {
   display: flex;
   flex-direction: column;
@@ -524,6 +544,13 @@ body {
   margin: 0 auto;
   align-items: center;
   justify-content: space-around;
+}
+
+@media(min-width: 40em) {
+  .about-me-texts {
+    align-items: flex-start;
+    margin: revert;
+  }
 }
 
 .about-me-texts>* {
@@ -545,15 +572,47 @@ body {
   margin-bottom: 5rem;
 }
 
+@media(min-width: 40em) {
+  .about-me-title {
+    padding-top: 0;
+    font-size: 2vw;
+    letter-spacing: 6px;
+    filter: opacity(90%);
+    color: var(--primary-color3);
+  }
+
+  .fs-md {
+    font-size: 2.4vw;
+  }
+}
+
 .gradient-circle {
   position: absolute;
   z-index: 1;
   left: 6rem;
 }
 
+@media (min-width: 40em) {
+  .gradient-circle {
+    position: absolute;
+    left: 70vw;
+    width: auto;
+    bottom: 0;
+  }
+}
+
 .about-me-blue-circle {
   position: relative;
   left: 7rem;
+}
+
+@media(min-width: 40em) {
+  .about-me-blue-circle {
+    position: relative;
+    top: 8rem;
+    left: -2rem;
+    width: 20em;
+  }
 }
 
 .about-me-blue-gradient {
@@ -562,12 +621,40 @@ body {
   left: 5rem;
 }
 
+@media(min-width: 40em) {
+  .about-me-blue-gradient {
+    position: relative;
+    bottom: 15rem;
+    left: -6rem;
+    width: 90rem;
+  }
+}
+
 .my-interests {
   padding-left: 1.3rem;
 }
 
+@media(min-width: 40em) {
+  .my-interests {
+    padding-left: revert;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
 .my-interest {
   margin-bottom: 2rem;
+}
+
+@media(min-width: 40em) {
+  .my-interest {
+    font-size: 1.3rem;
+    width: 50ch;
+    font-weight: 100;
+    font-family: var(--font-family2);
+  }
 }
 
 .aria-link {
