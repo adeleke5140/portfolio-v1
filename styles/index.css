@@ -104,6 +104,8 @@ h6 {
   --gradient-color3: #ffffff;
   --circle-color1: #A8C5D6;
   --circle-color2: #A8C5D6;
+
+  --max-screen-width: 1920px;
 }
 
 body {
@@ -113,13 +115,20 @@ body {
 
 .container {
   overflow-x: hidden;
+  max-width: var(--max-screen-width);
 }
 
 .hero-container {
   padding: 1rem;
   /* background: url("../assets/images/bg-image-header.png") center center; */
   background-color: var(--primary-color3);
-  height: 100vh;
+}
+
+@media(min-width: 40em) {
+  .hero-container {
+    padding: 2.5rem 2rem 0 2rem;
+    height: 100vh;
+  }
 }
 
 .header-logo {
@@ -129,11 +138,49 @@ body {
   margin-bottom: .5rem;
 }
 
+@media(min-width: 40em) {
+  .header-logo {
+    display: none;
+  }
+
+  .navigation-button {
+    display: none;
+  }
+}
+
 .navigation {
   position: fixed;
   top: 0.9rem;
   right: .7rem;
   z-index: 5;
+}
+
+.navigation-links {
+  display: none;
+}
+
+@media(min-width: 40em) {
+  .navigation {
+    width: 100%;
+    top: 4rem;
+    right: 0;
+  }
+
+  .navigation-links {
+    display: block;
+    font-family: var(--font-family2);
+    text-transform: uppercase;
+  }
+
+  .navigation-links ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .link-others {
+    padding-right: 2rem;
+    text-align: right;
+  }
 }
 
 .navigation-button {
@@ -145,6 +192,12 @@ body {
   margin-top: 2rem;
   font-family: var(--font-family2);
   position: relative;
+}
+
+@media(min-width: 40em) {
+  .header-main {
+    margin-top: 9rem;
+  }
 }
 
 .header-main-title {
@@ -159,6 +212,18 @@ body {
   width: fit-content;
 }
 
+@media(min-width: 40em) {
+  .header-main-title {
+    max-width: 100%;
+    padding: 0 3rem;
+    padding-left: 8%;
+  }
+
+  .header-main-title p {
+    display: inline;
+  }
+}
+
 .header-main-title>* {
   font-weight: 100;
   z-index: 2;
@@ -170,6 +235,15 @@ body {
   left: -2rem;
   filter: opacity(70%);
   z-index: 1;
+}
+
+@media(min-width: 40em) {
+  .ellipse-gradient {
+    left: 1rem;
+    width: 19rem;
+    top: -4rem;
+    filter: opacity(100%);
+  }
 
 }
 
@@ -184,12 +258,59 @@ body {
   margin-top: 1.2rem
 }
 
+@media (min-width: 40em) {
+
+  .title-extra {
+    position: relative;
+  }
+
+  .title-extra::after {
+    content: "\00AF";
+    position: absolute;
+    right: -47px;
+    top: 74px;
+    transform: rotate(-14deg);
+  }
+
+  .title-extra,
+  .title-extra1 {
+    font-size: 12vw;
+  }
+
+  p.title-extra2 {
+    font-size: 12vw;
+    font-family: var(--font-family2);
+    position: relative;
+    left: 12rem;
+  }
+}
+
 .header-main-title-2 {
   color: var(--primary-color2);
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   margin-top: 2.8rem;
   position: relative;
+}
+
+@media(min-width: 40em) {
+  .header-main-title-2 {
+    text-align: right;
+    writing-mode: revert;
+    transform: rotate(0deg);
+    position: relative;
+    right: 7.5vw;
+  }
+
+  .header-main-title-2>p {
+    font-size: 3vw;
+    letter-spacing: 8px;
+  }
+
+  .header-main-title-2 span {
+    font-size: 2em;
+    letter-spacing: 6px;
+  }
 }
 
 .header-main-title-2>* {
@@ -219,10 +340,70 @@ body {
   font-size: .8rem;
 }
 
+@media(min-width: 40em) {
+  .header-subtitle {
+    text-align: left;
+    padding-left: 9vw;
+    font-family: var(--font-family2);
+    width: 20%;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    padding-top: 1rem;
+  }
+}
+
 .ellipse {
   position: absolute;
   bottom: 6rem;
   left: 10rem
+}
+
+.ellipse-desktop {
+  display: none;
+}
+
+.more {
+  display: none;
+}
+
+@media(min-width: 40em) {
+  .more {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .more-title {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    text-transform: uppercase;
+  }
+
+  .more-title-arrow {
+    transform: rotate(30deg);
+    margin-right: .2rem
+  }
+
+  .more-gradient {
+    position: relative;
+    z-index: 1;
+    left: -2.5em;
+  }
+}
+
+@media(min-width: 40em) {
+  .ellipse {
+    display: none;
+  }
+
+  .ellipse-desktop {
+    display: block;
+    position: absolute;
+    bottom: 10vw;
+    left: 4vw;
+    z-index: 1;
+  }
 }
 
 .about-me {
@@ -260,7 +441,7 @@ body {
 .about-me-texts {
   display: flex;
   flex-direction: column;
-  width: 72%;
+  width: min(72%, 20rem);
   margin: 0 auto;
   align-items: center;
   justify-content: space-around;
