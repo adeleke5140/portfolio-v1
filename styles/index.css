@@ -809,6 +809,18 @@ ul>li {
   }
 }
 
+.projects {
+  background-color: var(--primary-color3);
+}
+
+.projects-heading {
+  text-transform: uppercase;
+  font-size: 3vw;
+  font-family: var(--font-family2);
+  padding: 2em 0;
+  color: var(--primary-color2)
+}
+
 .projects-container {
   display: flex;
   flex-direction: column;
