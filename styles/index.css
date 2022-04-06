@@ -840,6 +840,12 @@ ul>li {
   left: 0;
   background: url(../assets/images/bg-image.png);
   filter: opacity(8%);
+  z-index: 1;
+}
+
+.projects-container>* {
+  z-index: 2;
+  position: relative;
 }
 
 .project {
