@@ -952,6 +952,7 @@ form {
   width: 0;
   height: 0;
   font-size: .01em;
+  opacity: 0;
 }
 
 input {
