@@ -1046,3 +1046,9 @@ a.social {
 
   }
 }
+
+
+form {
+  position: relative;
+  z-index: 2;
+}
