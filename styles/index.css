@@ -623,6 +623,8 @@ a {
   position: relative;
   bottom: 10rem;
   left: 5rem;
+  width: auto;
+  height: auto;
 }
 
 @media(min-width: 40em) {
@@ -1002,6 +1004,7 @@ input {
   text-transform: uppercase;
   display: flex;
   justify-content: flex-end;
+  width: 18rem
 }
 
 .send-arrow {
