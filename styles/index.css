@@ -118,6 +118,11 @@ body {
   max-width: var(--max-screen-width);
 }
 
+
+.container-content {
+  overflow-y: hidden;
+}
+
 a {
   cursor: pointer;
 }
@@ -867,7 +872,7 @@ ul>li {
 .contact-container {
   padding: 4rem 3rem 0 3rem;
   background: var(--primary-color1);
-  height: 80vh;
+  height: 100vh;
   position: relative;
 }
 
