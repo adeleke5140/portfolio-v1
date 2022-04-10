@@ -121,6 +121,7 @@ body {
 
 .container-content {
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 a {
@@ -494,7 +495,7 @@ a {
 
 
 .about-me {
-  height: 95vh;
+  height: 100vh;
   position: relative;
   padding-top: 3rem;
   background-image: url(../assets/images/bg-image.png);
@@ -521,7 +522,7 @@ a {
 .about-me-subtitle {
   font-family: var(--font-family2);
   text-transform: uppercase;
-  font-size: 6rem;
+  font-size: 13vh;
   font-weight: 100;
   color: var(--primary-color6);
   filter: opacity(10%);
@@ -529,7 +530,7 @@ a {
   transform: rotate(180deg);
   position: absolute;
   top: 13rem;
-  left: -3.8rem;
+  left: -2.8rem;
   letter-spacing: 2px;
 }
 
@@ -935,7 +936,7 @@ ul>li {
   filter: opacity(10%);
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  top: 13rem;
+  top: 8rem;
   left: -3.2rem;
   letter-spacing: 2px;
 }
