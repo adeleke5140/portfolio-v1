@@ -827,8 +827,14 @@ ul>li {
   text-transform: uppercase;
   font-size: 7vw;
   font-family: var(--font-family2);
-  padding: 2em 0;
+  padding: 2em 0 0;
   color: var(--primary-color2)
+}
+
+.projects-details {
+  font-size: 2vw;
+  padding: 0 14.5em;
+  margin-bottom: 2em;
 }
 
 .projects-container {
