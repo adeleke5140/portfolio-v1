@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is the start of my portofolio. I have always wanted to have one. I couldn't because I didn't have a design. Now, I've got one from an amazing designer and I'm excited.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adeleke5140/portfolio-v1.git"
+  },
+  "author": "Kehinde Adeleke @adeleke5140",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adeleke5140/portfolio-v1/issues"
+  },
+  "homepage": "https://github.com/adeleke5140/portfolio-v1#readme",
+  "dependencies": {
+    "locomotive-scroll": "^4.1.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}
