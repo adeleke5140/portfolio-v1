@@ -12,13 +12,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="styles/index.css" />
-  <script src="https://unpkg.com/@barba/core"></script>
+
 </head>
 
-<body>
+<body data-barba="wrapper">
   <div class="container">
     <div class="container-content">
-      <div class="hero-container">
+
+      <section class="hero-container" data-barba="container">
         <header>
           <p class="header-logo">Portfolio</p>
           <hr />
@@ -73,10 +74,10 @@
             <img src="./assets/images/ellipse3.svg" alt="a blue gradient" class="more-gradient" />
           </div>
         </div>
-      </div>
+      </section>
 
       <main>
-        <section class="about-me" id="about-me">
+        <section class="about-me" id="about-me" data-barba="container">
           <span class="about-me-subtitle section-animate-heading">About me</span>
           <div class="gradient-circle">
             <img src="./assets/images/circle1.svg" alt="a blue circle" class="about-me-blue-circle" />
@@ -110,7 +111,7 @@
             </section>
           </div>
         </section>
-        <section class="skills">
+        <section class="skills" data-barba="container">
           <div class="skills-type">
             <div class="flex skill">
               <p class="skills-type-text">Hard</p>
@@ -151,7 +152,7 @@
             <img src="./assets/images/ellipse3.svg" alt="a blue gradient" class="skills-blue-gradient" />
           </div>
         </section>
-        <section class="projects" id="works">
+        <section class="projects" id="works" data-barba="container">
           <div class="projects-container">
             <div>
               <h3 class="projects-heading"> Projects </h3>
@@ -175,7 +176,8 @@
           </div>
         </section>
       </main>
-      <footer id="contact">
+
+      <footer id="contact" data-barba="container">
         <div class="contact-container">
           <span class="contact-subtitle section-animate-heading">Contacts</span>
           <span class="contact-container-others">
@@ -214,6 +216,9 @@
       </footer>
     </div>
   </div>
+
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
 </body>
 
 </html>
