@@ -58,7 +58,7 @@ gsap.fromTo(
 gsap.from(".header-main-title-2", {
   duration: 1.5,
   delay: 3.2,
-  x: 400,
+  x: 800,
   ease: "power2.inOut"
 })
 
