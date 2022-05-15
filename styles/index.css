@@ -82,11 +82,13 @@ h6 {
 @font-face {
   font-family: "Palatino";
   src: url("../assets/fonts/palatino/pala.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Palatino b";
   src: url("../assets/fonts/palatino/palab.ttf") format("truetype");
+  font-display: swap;
 }
 
 :root {
@@ -613,6 +615,8 @@ a {
 .about-me-blue-circle {
   position: relative;
   left: 7rem;
+  width: 100%;
+  height: 100%;
 }
 
 @media (min-width: 40em) {
@@ -628,8 +632,8 @@ a {
   position: relative;
   bottom: 10rem;
   left: 5rem;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 @media (min-width: 40em) {
@@ -732,6 +736,11 @@ a {
   align-self: flex-start;
 }
 
+.arrow-up {
+  width: 41px;
+  height: 42px;
+}
+
 @media (min-width: 40em) {
   .skills-type-text {
     font-size: 10vw;
@@ -799,6 +808,7 @@ ul > li {
 
 .arrow-down {
   width: 0.9rem;
+  height: 100%;
 }
 
 .skills-blue-gradient {
@@ -1023,6 +1033,8 @@ input {
     hue-rotate(329deg) brightness(121%) contrast(101%);
   transform: rotate(230deg);
   margin-right: 0.4em;
+  width: 0.9rem;
+  height: 100%;
 }
 
 .socials-footer {
