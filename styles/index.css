@@ -140,7 +140,8 @@ a {
 
 .hero-container::before {
   content: "";
-  background: url("../assets/images/bg-image.png");
+  background: url(../assets/images/bg-image.avif),
+    url("../assets/images/bg-image.png");
   position: absolute;
   top: 0;
   left: 0;
@@ -500,7 +501,8 @@ a {
   height: 100vh;
   position: relative;
   padding-top: 3rem;
-  background-image: url(../assets/images/bg-image.png);
+  background-image: url(../assets/images/bg-image.avif),
+    url(../assets/images/bg-image.png);
 }
 
 @media (min-width: 40em) {
@@ -698,7 +700,8 @@ a {
   right: 0;
   top: 0;
   bottom: 0;
-  background: url(../assets/images/bg-image.png);
+  background: url(../assets/images/bg-image.avif),
+    url(../assets/images/bg-image.png);
   filter: opacity(8%);
   z-index: 1;
 }
@@ -736,7 +739,7 @@ a {
   align-self: flex-start;
 }
 
-.arrow-up {
+.arrow-upgt {
   width: 41px;
   height: 42px;
 }
@@ -860,7 +863,8 @@ ul > li {
   bottom: 0;
   right: 0;
   left: 0;
-  background: url(../assets/images/bg-image.png);
+  background: url(../assets/images/bg-image.avif),
+    url(../assets/images/bg-image.png);
   filter: opacity(8%);
   z-index: 1;
 }
@@ -899,7 +903,8 @@ ul > li {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(../assets/images/bg-image.png);
+  background: url(../assets/images/bg-image.avif),
+    url(../assets/images/bg-image.png);
   filter: opacity(8%);
   z-index: 1;
 }
