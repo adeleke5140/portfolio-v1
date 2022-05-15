@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is the start of my portofolio. I have always wanted to have one. I couldn't because I didn't have a design. Now, I've got one from an amazing designer and I'm excited.",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adeleke5140/portfolio-v1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adeleke5140/portfolio-v1/issues"
+  },
+  "homepage": "https://github.com/adeleke5140/portfolio-v1#readme",
+  "dependencies": {
+    "parcel": "^2.5.0"
+  }
+}
