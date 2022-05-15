@@ -85,16 +85,15 @@ h6 {
   font-display: swap;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Palatino b";
   src: url("../assets/fonts/palatino/palab.ttf") format("truetype");
   font-display: swap;
-}
+} */
 
 :root {
-  --font-family1: "Palatino";
+  --font-family1: "Palatino", serif;
   --font-family2: "Cormorant Garamond", serif;
-
   /* colors */
   --primary-color1: #434343;
   --primary-color2: #424242;
