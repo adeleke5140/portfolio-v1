@@ -1,5 +1,5 @@
-4247
-58C:\Users\adele\Documents\code-stuff\portfolio\package.json132971092970088366 0
+4263
+58C:\Users\adele\Documents\code-stuff\portfolio\package.json132971094532729192 0
 108C:\Users\adele\Documents\code-stuff\portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Doxyfile132971033501810000 0
 90C:\Users\adele\Documents\code-stuff\portfolio\node_modules\caniuse-lite\data\regions\BY.js132971033732590000 0
 67C:\Users\adele\Documents\code-stuff\portfolio\node_modules\mdn-data132971091022985215 1
@@ -14,7 +14,7 @@
 81C:\Users\adele\Documents\code-stuff\portfolio\node_modules\parent-module\index.js132868146851050000 0
 107C:\Users\adele\Documents\code-stuff\portfolio\node_modules\caniuse-lite\data\features\keyboardevent-code.js132971033732590000 0
 87C:\Users\adele\Documents\code-stuff\portfolio\node_modules\css-select\lib\sort.d.ts.map132959418367300000 0
-50C:\Users\adele\Documents\code-stuff\portfolio\dist132971091661228525 1
+50C:\Users\adele\Documents\code-stuff\portfolio\dist132971094672277654 1
 72C:\Users\adele\Documents\code-stuff\portfolio\node_modules\yaml\index.js132946943894880000 0
 96C:\Users\adele\Documents\code-stuff\portfolio\node_modules\@parcel\transformer-svg\lib\inline.js132971033446410000 0
 89C:\Users\adele\Documents\code-stuff\portfolio\node_modules\source-map-support\register.js132868118159920000 0
@@ -144,7 +144,7 @@
 68C:\Users\adele\Documents\code-stuff\portfolio\node_modules\svgo\dist132971091063530613 1
 109C:\Users\adele\Documents\code-stuff\portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\COPYRIGHT132971033501810000 0
 97C:\Users\adele\Documents\code-stuff\portfolio\node_modules\@parcel\packager-js\src\.eslintrc.json132971033416160000 0
-81C:\Users\adele\Documents\code-stuff\portfolio\node_modules\lmdb\dependencies\lmdb132971091017772624 1
+81C:\Users\adele\Documents\code-stuff\portfolio\node_modules\lmdb\dependencies\lmdb132971091019986419 1
 66C:\Users\adele\Documents\code-stuff\portfolio\node_modules\@parcel132971091015182994 1
 70C:\Users\adele\Documents\code-stuff\portfolio\node_modules\is-arrayish132971091022785434 1
 73C:\Users\adele\Documents\code-stuff\portfolio\node_modules\csso\lib\clean132971091074185177 1
@@ -273,6 +273,7 @@
 84C:\Users\adele\Documents\code-stuff\portfolio\node_modules\@parcel\fs\lib\browser.js132971033323360000 0
 69C:\Users\adele\Documents\code-stuff\portfolio\node_modules\parse-json132971091055475678 1
 67C:\Users\adele\Documents\code-stuff\portfolio\node_modules\escalade132971091022294864 1
+73C:\Users\adele\Documents\code-stuff\portfolio\dist\bg-image.4d57d925.avif132971094653287360 0
 114C:\Users\adele\Documents\code-stuff\portfolio\node_modules\@parcel\core\test\fixtures\invalid-engines\package.json132971033314190000 0
 75C:\Users\adele\Documents\code-stuff\portfolio\node_modules\timsort\index.js132868145864400000 0
 79C:\Users\adele\Documents\code-stuff\portfolio\node_modules\escape-string-regexp132971091022585259 1
@@ -608,6 +609,7 @@
 102C:\Users\adele\Documents\code-stuff\portfolio\node_modules\@parcel\workers\src\process\ProcessChild.js132971033372250000 0
 115C:\Users\adele\Documents\code-stuff\portfolio\node_modules\@parcel\runtime-react-refresh\lib\ReactRefreshRuntime.js132971033429390000 0
 90C:\Users\adele\Documents\code-stuff\portfolio\node_modules\caniuse-lite\data\regions\DZ.js132971033732590000 0
+71C:\Users\adele\Documents\code-stuff\portfolio\dist\ellipse.90c355b8.svg132971094672217567 0
 85C:\Users\adele\Documents\code-stuff\portfolio\node_modules\@parcel\core\src\worker.js132971033314190000 0
 79C:\Users\adele\Documents\code-stuff\portfolio\node_modules\msgpackr\unpack.d.ts132971033356730000 0
 91C:\Users\adele\Documents\code-stuff\portfolio\node_modules\yaml\dist\PlainValue-ec8e588e.js132946943894880000 0
@@ -1259,6 +1261,7 @@
 87C:\Users\adele\Documents\code-stuff\portfolio\node_modules\svgo\plugins\minifyStyles.js132971033523940000 0
 77C:\Users\adele\Documents\code-stuff\portfolio\node_modules\htmlnano\README.md132971033564020000 0
 86C:\Users\adele\Documents\code-stuff\portfolio\node_modules\regenerator-runtime\LICENSE132868118398620000 0
+80C:\Users\adele\Documents\code-stuff\portfolio\dist\ellipse-gradient.959929e5.svg132971094669867317 0
 82C:\Users\adele\Documents\code-stuff\portfolio\node_modules\svgo\plugins\plugins.js132971033523940000 0
 101C:\Users\adele\Documents\code-stuff\portfolio\node_modules\caniuse-lite\data\features\documenthead.js132971033732590000 0
 87C:\Users\adele\Documents\code-stuff\portfolio\node_modules\@parcel\source-map\README.md132971033344430000 0
@@ -2770,6 +2773,7 @@
 90C:\Users\adele\Documents\code-stuff\portfolio\node_modules\caniuse-lite\data\regions\DJ.js132971033732590000 0
 90C:\Users\adele\Documents\code-stuff\portfolio\node_modules\caniuse-lite\data\regions\DM.js132971033732590000 0
 90C:\Users\adele\Documents\code-stuff\portfolio\node_modules\caniuse-lite\data\regions\DO.js132971033732590000 0
+68C:\Users\adele\Documents\code-stuff\portfolio\dist\pala.36998693.ttf132971094653193424 0
 98C:\Users\adele\Documents\code-stuff\portfolio\node_modules\@parcel\packager-svg\src\SVGPackager.js132971033421520000 0
 90C:\Users\adele\Documents\code-stuff\portfolio\node_modules\caniuse-lite\data\regions\EG.js132971033732590000 0
 110C:\Users\adele\Documents\code-stuff\portfolio\node_modules\@parcel\runtime-js\lib\helpers\browser\js-loader.js132971033424600000 0
@@ -2893,6 +2897,7 @@
 90C:\Users\adele\Documents\code-stuff\portfolio\node_modules\caniuse-lite\data\regions\VI.js132971033732590000 0
 90C:\Users\adele\Documents\code-stuff\portfolio\node_modules\caniuse-lite\data\regions\VU.js132971033732590000 0
 90C:\Users\adele\Documents\code-stuff\portfolio\node_modules\caniuse-lite\data\regions\WF.js132971033732590000 0
+68C:\Users\adele\Documents\code-stuff\portfolio\dist\index.59b6a95a.js132971094672217567 0
 90C:\Users\adele\Documents\code-stuff\portfolio\node_modules\caniuse-lite\data\regions\WS.js132971033732590000 0
 90C:\Users\adele\Documents\code-stuff\portfolio\node_modules\caniuse-lite\data\regions\ZA.js132971033732590000 0
 86C:\Users\adele\Documents\code-stuff\portfolio\node_modules\@parcel\events\lib\index.js132971033359550000 0
@@ -4222,16 +4227,27 @@
 68C:\Users\adele\Documents\code-stuff\portfolio\node_modules\.bin\svgo132971091094366048 0
 70C:\Users\adele\Documents\code-stuff\portfolio\node_modules\.bin\terser132971091094600942 0
 74C:\Users\adele\Documents\code-stuff\portfolio\node_modules\.bin\terser.cmd132971091094600942 0
+72C:\Users\adele\Documents\code-stuff\portfolio\dist\bg-image.587ea85d.png132971094670020274 0
 73C:\Users\adele\Documents\code-stuff\portfolio\dist\bg-image.6f83119f.avif132971091660209402 0
 72C:\Users\adele\Documents\code-stuff\portfolio\dist\bg-image.c75201ec.png132971091660628621 0
+71C:\Users\adele\Documents\code-stuff\portfolio\dist\circle1.7ae50f54.svg132971094672217567 0
 71C:\Users\adele\Documents\code-stuff\portfolio\dist\circle1.c75bdaac.svg132971091660598599 0
+68C:\Users\adele\Documents\code-stuff\portfolio\dist\down.995847ec.svg132971094668060023 0
 68C:\Users\adele\Documents\code-stuff\portfolio\dist\down.9ce3ef5a.svg132971091660074219 0
 80C:\Users\adele\Documents\code-stuff\portfolio\dist\ellipse-gradient.d7185a5d.svg132971091661048545 0
 71C:\Users\adele\Documents\code-stuff\portfolio\dist\ellipse.e40c59f6.svg132971091660568587 0
+72C:\Users\adele\Documents\code-stuff\portfolio\dist\ellipse2.b022f278.svg132971094668060023 0
+72C:\Users\adele\Documents\code-stuff\portfolio\dist\ellipse3.7c972087.svg132971094670881471 0
+72C:\Users\adele\Documents\code-stuff\portfolio\dist\ellipse4.d108a62a.svg132971094670871465 0
 74C:\Users\adele\Documents\code-stuff\portfolio\dist\harmburger.47b24d22.svg132971091660958605 0
+74C:\Users\adele\Documents\code-stuff\portfolio\dist\harmburger.52a6a2e0.svg132971094669847334 0
 72C:\Users\adele\Documents\code-stuff\portfolio\dist\index.3d214d75.js.map132971091661198509 0
-61C:\Users\adele\Documents\code-stuff\portfolio\dist\index.html132971091661178552 0
+72C:\Users\adele\Documents\code-stuff\portfolio\dist\index.59b6a95a.js.map132971094672227582 0
+69C:\Users\adele\Documents\code-stuff\portfolio\dist\index.b68dd5c6.css132971094672217567 0
+73C:\Users\adele\Documents\code-stuff\portfolio\dist\index.b68dd5c6.css.map132971094672227582 0
+61C:\Users\adele\Documents\code-stuff\portfolio\dist\index.html132971094672217567 0
 68C:\Users\adele\Documents\code-stuff\portfolio\dist\pala.5f0b4c99.ttf132971091660114682 0
+66C:\Users\adele\Documents\code-stuff\portfolio\dist\up.c8ec03ec.svg132971094668060023 0
 66C:\Users\adele\Documents\code-stuff\portfolio\dist\up.f43255c4.svg132971091660175251 0
 72C:\Users\adele\Documents\code-stuff\portfolio\assets\images\bg-image.png132970517597884234 0
 68C:\Users\adele\Documents\code-stuff\portfolio\assets\images\down.svg132934144793266425 0
