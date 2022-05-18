@@ -1124,3 +1124,22 @@ ul.transition li {
   background: var(--primary-color2);
   left: 66.6%;
 }
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution > span {
+  display: inline-block;
+  color: var(--primary-color4);
+}
+
+.attribution > span:first-child {
+  margin-right: 2em;
+}
+
+.attribution span a {
+  color: var(--primary-color5);
+}
